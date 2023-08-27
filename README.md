@@ -1,6 +1,6 @@
 # How to ensure PDF/A compliance
 
-This is a collection of resources started as part of the PVLDB Vol 16 Publication Process. It outlines various resources and how-tos regarding achieving PDF/A compliance. This is a live document, so please come back for updated content and feel free to contribute as well.
+This is a collection of resources started as part of the PVLDB Vol 17 Publication Process. It outlines various resources and how-tos regarding achieving PDF/A compliance. This is a live document, so please come back for updated content and feel free to contribute as well.
 
 ## LaTeX configuration to embed all fonts
 + Ensure that the options `pdftexDownloadBase14` and `dvipsDownloadBase35` are set to true in your `updmap.cfg` file. In order to ensure that that you are editing the correct file run first `updmap -sys` to see which files are used. 
@@ -31,7 +31,7 @@ Adobe Acrobat can also save as PDF/A, however, note that this does not always me
 
 OK, so you have followed all the above guidelines to make your file compliant. Can you verify with the same tools as the PVLDB Publication Process? To do that, we add below a simple version of the testing suite used during publication.
 
-## PVLDB Vol 16 Testing Scripts
+## PVLDB Vol 17 Testing Scripts
 + Before you start, follow the guidelines in [_tools/INSTALL_TOOLS.md](_tools/INSTALL_TOOLS.md) to install the necessary tools.
 + Once the tools are installed, you can run the two scripts `check_fonts_pdfa.py` to check fonts and PDF/A compliance and `check_format.py` to check other common formatting errors. 
 + Note that these are not exhaustive!

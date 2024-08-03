@@ -46,8 +46,10 @@ OK, so you have followed all the above guidelines to make your file compliant. C
 + https://avepdf.com/pdfa-validation
 
 ### Online tools to convert to PDF/A 
-+ https://pdf.online/pdf-to-pdfa
++ https://pdf.online/pdf-to-pdfa  - this site is tested
 + https://www.ilovepdf.com/convert-pdf-to-pdfa
+
+Note: some cite might remove the citation link in the file
 
 ### Removing Type 3 fonts (this is a best-effort collection of online links)
 Note that typically, if you ensure PDF/A compliance there should be no Type 3 fonts. Just in case, below we have a collection of links solely about removing Type 3 fonts in a more ad hoc manner.

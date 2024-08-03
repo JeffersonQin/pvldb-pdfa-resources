@@ -7,7 +7,7 @@ This process has been tested with macOS 13.3.
 + Install PyPDF2 (needed for pdf-import.py)
 
 ```
-pip3 install PyPDF2
+pip3 install PyPDF2==2.12.2
 ```
 
 ## VeraPDF
@@ -19,7 +19,7 @@ pip3 install PyPDF2
 mkdir veraPDF-download; cd veraPDF-download
 wget https://software.verapdf.org/rel/verapdf-installer.zip
 unzip verapdf-installer.zip
-cd verapdf-greenfield-1.22.3
+cd verapdf-greenfield-1.22.3 # version might change
 ./verapdf-install
 ```
     
@@ -30,3 +30,14 @@ cd verapdf-greenfield-1.22.3
 ## Setup Poppler 
 + Install poppler-utils (e.g., `brew install poppler`) (for checking embedded fonts)
 
+With sudo:
+
+```bash
+sudo apt install poppler-utils
+```
+
+Without sudo:
+
+```bash
+conda install -c conda-forge poppler
+```
